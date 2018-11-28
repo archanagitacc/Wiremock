@@ -1,0 +1,10 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPattern": "/nab/Error/404"
+    },
+    "response": {
+        "status": 404,
+        "body": "{\r\n\"error\": {\r\n \"errors\": [\r\n  {\r\n   \"domain\": \"global\",\r\n   \"reason\": \"notFound\",\r\n   \"message\": \"Not Found\"\r\n  }\r\n ],\r\n \"code\": 404,\r\n \"message\": \"Not Found\"\r\n }\r\n}"
+    }
+}

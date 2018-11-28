@@ -1,0 +1,18 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPathPattern": "/nab/nab0001",
+        "queryParameters": {
+                    "page": {
+                        "matches": "[0-9]+"
+                    },
+                    "per_page": {
+                        "matches": "[0-9]+"
+                    }
+                }
+    },
+    "response": {
+        "status": 200,
+        "body": "{\r\n\t\"rowset\":\t{\r\n\t\t\"osname\":\t\"NCOMS\",\r\n\t\t\"dbname\":\t\"alerts\",\r\n\t\t\"tblname\":\t\"status\",\r\n\t\t\"coldesc\":\t[{\r\n\t\t\t\t\"name\": \"Identifier\",\r\n\t\t\t\t\"type\": \"string\",\r\n\t\t\t\t\"size\": 255\r\n\t\t\t}, {\r\n\t\t\t\t\"name\": \"Serial\",\r\n\t\t\t\t\"type\": \"integer\",\r\n\t\t\t\t\"size\": 4\r\n\t\t\t}, {\r\n\t\t\t\t\"name\": \"Node\",\r\n\t\t\t\t\"type\": \"string\",\r\n\t\t\t\t\"size\": 64\r\n\t\t\t}, {\r\n\t\t\t\t\"name\": \"NodeAlias\",\r\n\t\t\t\t\"type\": \"string\",\r\n\t\t\t\t\"size\": 64\r\n\t\t\t}, {\r\n\t\t\t\t\"name\": \"AlertKey\",\r\n\t\t\t\t\"type\": \"string\",\r\n\t\t\t\t\"size\": 255\r\n\t\t\t}, {\r\n\t\t\t\t\"name\": \"Severity\",\r\n\t\t\t\t\"type\": \"integer\",\r\n\t\t\t\t\"size\": 4\r\n\t\t\t}, {\r\n\t\t\t\t\"name\": \"Summary\",\r\n\t\t\t\t\"type\": \"string\",\r\n\t\t\t\t\"size\": 255\r\n\t\t\t}, {\r\n\t\t\t\t\"name\": \"StateChange\",\r\n\t\t\t\t\"type\": \"utc\",\r\n\t\t\t\t\"size\": 4\r\n\t\t\t}, {\r\n\t\t\t\t\"name\": \"FirstOccurrence\",\r\n\t\t\t\t\"type\": \"utc\",\r\n\t\t\t\t\"size\": 4\r\n\t\t\t}, {\r\n\t\t\t\t\"name\": \"LastOccurrence\",\r\n\t\t\t\t\"type\": \"utc\",\r\n\t\t\t\t\"size\": 4\r\n\t\t\t}, {\r\n\t\t\t\t\"name\": \"RowSerial\",\r\n\t\t\t\t\"type\": \"integer\",\r\n\t\t\t\t\"size\": 4\r\n\t\t\t}],\r\n\t\t\"rows\":\t\t[{\r\n\t\t\t\t\"Identifier\": \"Startup@sol9-build1\",\r\n\t\t\t\t\"Serial\": 12469,\r\n\t\t\t\t\"Node\": \"sol9-build1\",\r\n\t\t\t\t\"NodeAlias\": \"\",\r\n\t\t\t\t\"AlertKey\": \"\",\r\n\t\t\t\t\"Severity\": 0,\r\n\t\t\t\t\"Summary\": \"ObjectServer NCOMS on sol9-build1 started at Wed Jul 04 15:27:57 2012\",\r\n\t\t\t\t\"StateChange\": 1341412082,\r\n\t\t\t\t\"FirstOccurrence\": 1341411978,\r\n\t\t\t\t\"LastOccurrence\": 1341412077,\r\n\t\t\t\t\"RowSerial\": 12469\r\n\t\t\t}, {\r\n\t\t\t\t\"Identifier\": \"ProfilerEnableToggle@NCOMS:sol9-build1\",\r\n\t\t\t\t\"Serial\": 12468,\r\n\t\t\t\t\"Node\": \"sol9-build1\",\r\n\t\t\t\t\"NodeAlias\": \"\",\r\n\t\t\t\t\"AlertKey\": \"\",\r\n\t\t\t\t\"Severity\": 0,\r\n\t\t\t\t\"Summary\": \"ObjectServer NCOMS Profiler enabled at Wed Jul 04 15:27:56 2012\",\r\n\t\t\t\t\"StateChange\": 1341412077,\r\n\t\t\t\t\"FirstOccurrence\": 1341411976,\r\n\t\t\t\t\"LastOccurrence\": 1341412076,\r\n\t\t\t\t\"RowSerial\": 12468\r\n\t\t\t}, {\r\n\t\t\t\t\"Identifier\": \"Shutdown@sol9-build1\",\r\n******* TRUNCATED ********\r\n\t\t\t\t\"RowSerial\": 12519\r\n\t\t\t}],\r\n\t\t\"affectedRows\": 13\r\n\t}\r\n}"
+    }
+}

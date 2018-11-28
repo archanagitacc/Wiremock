@@ -1,0 +1,53 @@
+{
+    "response": {
+        "from": {
+            "account": {
+                "resourceType": "accountApca",
+                "accountApca": {
+                    "bsb": "082057",
+                    "accountName": "BLACKBOX TEST",
+                    "accountNumber": "243144914"
+                }
+            }
+        },
+        "to": {
+            "account": {
+                "resourceType": "accountApca",
+                "accountApca": {
+                    "bsb": "083047",
+                    "accountName": "Home Loan #6567",
+                    "accountNumber": "918796567"
+                }
+            }
+        },
+        "method": {
+            "resourceType": "directDebit",
+            "directDebit": {
+                "amount": "500.00",
+                "remitterName": "BLACKBOX TEST",
+                "detailedDescription": "DETAILED DESCRIPTI"
+            }
+        },
+        "recurrence": {
+            "resourceType": "periodic",
+            "periodic": {
+                "recurringFrequency": "WEEKLY",
+                "resourceType": "until",
+                "until": {
+                    "endDate": "2019-10-16"
+                },
+                "nextDate": "2019-09-23"
+            }
+        },
+        "paymentId": "4426746",
+        "status": "PERIODIC",
+        "availableActions": {
+            "view": true
+        },
+        "isMultiAuth": false
+    },
+    "status": {
+        "code": "API-200",
+        "message": "Success"
+    }
+}

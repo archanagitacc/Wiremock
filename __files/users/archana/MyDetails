@@ -1,0 +1,21 @@
+{
+   "name" : "Archana",
+   "first-name" : "Archana",
+   "last-name" : "Shinde",
+   "display-name" : "My Username",
+   "email" : "user@example.test",
+   "password" : {
+      "value" : "my_password"
+   },
+   "active" : true,
+   "attributes" : {
+      "attributes" : [
+         {
+            "name" : "attr-name",
+            "values" : [
+               "attr-value"
+            ]
+         }
+      ]
+   }
+}

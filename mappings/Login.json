@@ -1,0 +1,20 @@
+
+{
+ "request":
+ {
+ "urlPattern": "/init/auth/",
+ "method": "POST",
+ "bodyPatterns" : [{
+ "equalToJson" : "{\"loginRequest\":{\"brand\":\"nab\",\"lob\":\"nab\",\"credentials\":{\"apiStructType\":\"usernamePassword\",\"usernamePassword\":{\"username\":\"9970181356\",\"password\":\"aaa111\"}}}}"
+ }]
+ },
+ "response":
+ {
+ "status": 200,
+"headers":
+ {
+ "Content-Type" : "application/json"
+ },
+ "body": "{\r\n    \"status\": {\r\n        \"code\": \"API-200\",\r\n        \"message\": \"Success\"\r\n    },\r\n    \"loginResponse\": {\r\n        \"tokens\": [\r\n            {\r\n                \"type\": \"header\",\r\n                \"name\": \"Authorization\",\r\n                \"value\": \"1df65ada-72eb-42cd-a147-21fe8124bd96\",\r\n                \"expires\": \"2018-11-23T14:55:17.942Z\"\r\n            },\r\n            {\r\n                \"type\": \"header\",\r\n                \"name\": \"visitorID\",\r\n                \"value\": \"8d72705ddfeaed55c57d7f9dbb2efbc8a5a332d7bd87de30a4af6ed59391f225\",\r\n                \"expires\": \"2018-11-23T14:55:17.942Z\"\r\n            }\r\n        ]\r\n    }\r\n}"
+ }
+}

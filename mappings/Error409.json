@@ -1,0 +1,10 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPattern": "/nab/Error/409"
+    },
+    "response": {
+        "status": 409,
+        "body": "{\r\n\"error\": {\r\n \"errors\": [\r\n  {\r\n   \"domain\": \"global\",\r\n   \"reason\": \"conflict\",\r\n   \"message\": \"You already own this bucket. Please select another name.\"\r\n  }\r\n ],\r\n \"code\": 409,\r\n \"message\": \"You already own this bucket. Please select another name.\"\r\n }\r\n}"
+    }
+}

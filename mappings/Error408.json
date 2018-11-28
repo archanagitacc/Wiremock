@@ -1,0 +1,10 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPattern": "/nab/Error/408"
+    },
+    "response": {
+        "status": 408,
+        "body": "{\r\n\"error\": {\r\n \"errors\": [\r\n  {\r\n   \"domain\": \"global\",\r\n   \"reason\": \"REQUEST TIMEOUT\",\r\n   \"message\": \"Client did not produce a request within the time that the server was prepared to wait.\"\r\n  }\r\n ],\r\n \"code\": 408,\r\n \"message\": \"Client did not produce a request within the time that the server was prepared to wait.\"\r\n }\r\n}"
+    }
+}

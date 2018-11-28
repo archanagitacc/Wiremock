@@ -1,0 +1,10 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPattern": "/nab/nab500"
+    },
+    "response": {
+        "status": 500,
+        "body": "{\r\n\"error\": {\r\n \"errors\": [\r\n  {\r\n   \"domain\": \"global\",\r\n   \"reason\": \"required\",\r\n   \"message\": \"Login Required\",\r\n   \"locationType\": \"header\",\r\n   \"location\": \"Authorization\"\r\n  }\r\n ],\r\n \"code\": 500,\r\n \"message\": \"Internal Server error\"\r\n }\r\n}"
+    }
+}

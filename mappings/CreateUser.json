@@ -1,0 +1,20 @@
+
+{
+ "request":
+ {
+ "urlPattern": "/createUser",
+ "method": "POST",
+ "bodyPatterns" : [{
+ "equalToJson" : "{\r\n   \"name\" : \"my_username\",\r\n   \"first-name\" : \"My\",\r\n   \"last-name\" : \"Username\",\r\n   \"display-name\" : \"My Username\",\r\n   \"email\" : \"user@example.test\",\r\n   \"password\" : {\r\n      \"value\" : \"my_password\"\r\n   },\r\n   \"active\" : true\r\n}\r\n\r\n"
+ }]
+ },
+ "response":
+ {
+ "status": 200,
+ "headers":
+ {
+ "Content-Type" : "application/json"
+ },
+ "body": "{\r\n   \"name\" : \"my_username\",\r\n   \"first-name\" : \"My\",\r\n   \"last-name\" : \"Username\",\r\n   \"display-name\" : \"My Username\",\r\n   \"email\" : \"user@example.test\",\r\n   \"password\" : {\r\n      \"value\" : \"my_password\"\r\n   },\r\n   \"active\" : true,\r\n   \"attributes\" : {\r\n      \"attributes\" : [\r\n         {\r\n            \"name\" : \"attr-name\",\r\n            \"values\" : [\r\n               \"attr-value\"\r\n            ]\r\n         }\r\n      ]\r\n   }\r\n}"
+ }
+}

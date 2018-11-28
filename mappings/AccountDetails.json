@@ -1,0 +1,17 @@
+
+{
+ "request":
+ {
+ "urlPattern": "/banking/nab/account/nG5wkxfjFO2fH1-xDy4ijuudOwKqLxmM7M_EkpvTHfb1NfdQVh_xL-e8mrXf9Q15",
+ "method": "GET"
+ },
+ "response":
+ {
+ "status": 200,
+"headers":
+ {
+ "Content-Type" : "application/json"
+ },
+ "body": "{\r\n    \"status\": {\r\n        \"code\": \"API-200\",\r\n        \"message\": \"Success\"\r\n    },\r\n    \"accountDetailsResponse\": {\r\n        \"nickname\": \"Home Loan #9858\",\r\n        \"productCode\": \"LHOM\",\r\n        \"productName\": \"NAB TAILORED HOME LOAN\",\r\n        \"currentBalance\": \"-49990.00\",\r\n        \"apiStructType\": \"loanAccount\",\r\n        \"accountType\": \"HomeLoan\",\r\n        \"accountCategory\": \"DOMESTIC\",\r\n        \"loanAccount\": {\r\n            \"availableBalance\": \"49010.00\",\r\n            \"rate\": \"5.2400\",\r\n            \"instalmentAmount\": \"1000.00\",\r\n            \"loanCoverAttached\": false,\r\n            \"loanEndDate\": \"2029-03-07T00:00:00Z\",\r\n            \"nextInstalmentDate\": \"2019-04-07T00:00:00Z\",\r\n            \"repaymentFrequency\": \"MONTHLY\",\r\n            \"scheduledBalance\": \"100000.00\",\r\n            \"statementDeliveryFrequency\": \"HALF YEARLY\",\r\n            \"termDate\": \"2029-03-07T00:00:00Z\",\r\n            \"isOffsetEligible\": true,\r\n            \"interestChargedAccount\": {\r\n                \"bsb\": \"083047\",\r\n                \"accountNumber\": \"880169858\",\r\n                \"accountNickname\": \"Home Loan #9858\",\r\n                \"accountToken\": \"nG5wkxfjFO2fH1-xDy4ijuudOwKqLxmM7M_EkpvTHfb1NfdQVh_xL-e8mrXf9Q15\"\r\n            },\r\n            \"productVersion\": \"CURRENT\",\r\n            \"marginRate\": \"0.0000\",\r\n            \"lineServiceFeeType\": \"MONTHLY\",\r\n            \"lineServiceFee\": \"8.00\",\r\n            \"minimumPaymentAmount\": \"1000.00\",\r\n            \"repaymentType\": \"PRINCIPAL_AND_INTEREST\",\r\n            \"interestPaidInCurrentTaxYear\": \"0.00\",\r\n            \"interestPaidInPreviousTaxYear\": \"0.00\"\r\n        },\r\n        \"accountToken\": \"nG5wkxfjFO2fH1-xDy4ijuudOwKqLxmM7M_EkpvTHfb1NfdQVh_xL-e8mrXf9Q15\",\r\n        \"accountIdDisplay\": \"083047-880169858\"\r\n    }\r\n}"
+ }
+}

@@ -1,0 +1,10 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPattern": "/nab/nab0001"
+    },
+    "response": {
+        "status": 200,
+        "body": "{\r\n    \"response\": {\r\n        \"from\": {\r\n            \"account\": {\r\n                \"resourceType\": \"accountApca\",\r\n                \"accountApca\": {\r\n                    \"bsb\": \"082057\",\r\n                    \"accountName\": \"BLACKBOX TEST\",\r\n                    \"accountNumber\": \"243144914\"\r\n                }\r\n            }\r\n        },\r\n        \"to\": {\r\n            \"account\": {\r\n                \"resourceType\": \"accountApca\",\r\n                \"accountApca\": {\r\n                    \"bsb\": \"083047\",\r\n                    \"accountName\": \"Home Loan #6567\",\r\n                    \"accountNumber\": \"918796567\"\r\n                }\r\n            }\r\n        },\r\n        \"method\": {\r\n            \"resourceType\": \"directDebit\",\r\n            \"directDebit\": {\r\n                \"amount\": \"500.00\",\r\n                \"remitterName\": \"BLACKBOX TEST\",\r\n                \"detailedDescription\": \"DETAILED DESCRIPTI\"\r\n            }\r\n        },\r\n        \"recurrence\": {\r\n            \"resourceType\": \"periodic\",\r\n            \"periodic\": {\r\n                \"recurringFrequency\": \"WEEKLY\",\r\n                \"resourceType\": \"until\",\r\n                \"until\": {\r\n                    \"endDate\": \"2019-10-16\"\r\n                },\r\n                \"nextDate\": \"2019-09-23\"\r\n            }\r\n        },\r\n        \"paymentId\": \"4426746\",\r\n        \"status\": \"PERIODIC\",\r\n        \"availableActions\": {\r\n            \"view\": true\r\n        },\r\n        \"isMultiAuth\": false\r\n    },\r\n    \"status\": {\r\n        \"code\": \"API-200\",\r\n        \"message\": \"Success\"\r\n    }\r\n}"
+    }
+}
